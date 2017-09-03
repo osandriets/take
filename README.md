@@ -4,9 +4,7 @@
 
 ## Developers
 
-To always have the newest version of UIkit, even before a release, you may want to build it from source. If you only want to integrate the Less sources in your own website, you should simply install the Bower package instead.
-
-Clone the UIkit repository.
+Clone the take repository.
 
 ```
 git clone https://github.com/osandriets/take.git
@@ -25,12 +23,13 @@ Install npm install bower
 bower init
 ```
 
-gulp
+Run project
 
 ```
 gulp
 ```
 
+Navigate to http://localhost:9000
 
 
 
