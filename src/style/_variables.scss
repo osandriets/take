@@ -1,0 +1,80 @@
+$white:  #fff !default;
+$black:  #000 !default;
+
+
+// Body
+
+$body-bg:       $white !default;
+$body-color:    #999999;
+
+// Links
+$link-color:           red;// theme-color("primary") !default;
+$link-decoration:       none !default;
+$link-hover-color:      blue; //darken($link-color, 15%) !default;
+$link-hover-decoration: $link-decoration !default;
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom: 1rem !default;
+
+// Grid breakpoints
+// 320, 480:800, 960:640, 1280
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 480px,
+        md: 768px,
+        lg: 992px,
+        xl: 1230px
+) !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+        sm: 450px,
+        md: 720px,
+        lg: 960px,
+        xl: 1200px
+) !default;
+
+// Grid columns
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
+// Components
+
+$spacer: 24px !default;
+
+// Fonts
+
+$font-family-base: 'Open Sans', sans-serif;
+$font-size-base: 14px !default;
+$font-size-sm: 13px !default;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-semi-bold: 600 !default;
+$font-weight-bold: 700 !default;
+
+$line-height-base: 24px !default;
+
+$paragraph-margin-bottom: 24px;
+
+$h1-font-size: 60px !default;
+$h2-font-size: 35px !default;
+$h3-font-size: 30px !default;
+$h4-font-size: 1.5rem !default;
+$h5-font-size: 1.25rem !default;
+$h6-font-size: 13px !default;
+
+$headings-margin-bottom: 16px !default;
+$headings-font-family:   inherit !default;
+$headings-font-weight:   $font-weight-light !default;
+$headings-line-height:   1 !default;
+$headings-color:         #222626 !default;
+

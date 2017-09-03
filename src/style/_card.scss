@@ -1,0 +1,40 @@
+.bg-wewak{
+ background-color: #f5989d;
+}
+.bg-comet{
+  background-color: #615F7D;
+}
+.bg-lilac{
+  background-color: #bd8cbf;
+}
+.bg-black-pearl{
+  background-color: #091E28;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-sign-up{
+  @extend .bg-black-pearl;
+  background-image: url("../img/bg_sign_up.png");
+  background-position: 100% 60%;
+}
+.img-our-clients{
+  @extend .bg-black-pearl;
+  background-image: url("../img/bg_our_clients.png");
+  background-position: 100% 60%;
+}
+
+.img-start-somthing{
+  @extend .bg-black-pearl;
+  background-image: url("../img/bg_start_somthing.png");
+  background-position: 100% 60%;
+}
+
+.bg-summer-green{
+  background-color: #82ca9c;
+}
+
+
+
+.bg-wewak{
+  background-color: #f5989d;
+}

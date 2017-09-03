@@ -1,0 +1,19 @@
+.yyy *{
+  outline: 1px solid red;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+//font-family: 'Open Sans', sans-serif;
+
+@import "variables";
+@import "mixins";
+
+@import "reboot";
+
+@import "grid";
+@import "type";
+@import "card";
+@import "main";
+
+
