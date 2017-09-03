@@ -31,11 +31,9 @@ header {
 
   .jumbotron {
     display: flex;
-    //height: calc(950px - 152px);
-    //background: blue;
     flex-direction: column;
     justify-content: center;
-    background: url(/img/jumbotron.jpg) 70% center no-repeat;
+    background: url(../img/jumbotron.jpg) 70% center no-repeat;
     background-size: cover;
 
   }
@@ -103,7 +101,7 @@ header {
 
 .section-2 {
   padding-top: 46px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 @include media-breakpoint-up(sm) {
