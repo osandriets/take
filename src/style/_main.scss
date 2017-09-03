@@ -56,7 +56,7 @@ header {
 
 @include media-breakpoint-up(sm) {
   .section-1 {
-    background-image: url(/img/jumbotron.jpg);
+    background-image: url(../img/jumbotron.jpg);
     background-position: 68% center;
     background-repeat: no-repeat;
     background-size: cover;
